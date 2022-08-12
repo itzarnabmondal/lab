@@ -1,3 +1,5 @@
+/* Q1. Write a Java program that takes five numbers as input to calculate and print the average of the numbers. */
+
 import java.util.Scanner;
 
 public class AverageOfNumbers {

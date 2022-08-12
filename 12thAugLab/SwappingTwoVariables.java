@@ -1,3 +1,5 @@
+// Q2. Swapping two variables
+
 public class SwappingTwoVariables {
     public static void main(String arg[]) {
         int x = 10;  
@@ -5,7 +7,8 @@ public class SwappingTwoVariables {
         System.out.println(":: Before swapping ::\n");    
         System.out.println("value of x:" + x);  
         System.out.println("value of y:" + y);  
-        System.out.println("\n:: After swapping ::\n");  
+        System.out.println("\n:: After swapping ::\n");
+        // Swapping
         x = x + y;  
         y = x - y;  
         x = x - y;  

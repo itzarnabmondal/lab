@@ -1,3 +1,8 @@
+/**
+ * Q1. Create two threads to print even numbers and odd numbers from 1 to 100?
+ * note: after printing of all even numbers only odd numbers should print
+ */
+
 class EvenThread extends Thread { // Creating Even Thread
     public void run() { // Overriding run method
         System.out.println(":: Even Thread Started ::\nAll even numbers are: ");

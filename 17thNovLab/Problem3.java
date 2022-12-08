@@ -1,7 +1,11 @@
 import java.util.*;
+
+// main class
 public class Problem3 {
+    // main method
     public static void main(String[] args) {
         ArrayList<String> list1= new ArrayList<>(); // Creating Arraylist
+        // adding values
         list1.add("Red");
         list1.add("Green");
         list1.add("Black");

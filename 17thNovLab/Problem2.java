@@ -1,9 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// Main class
 public class Problem2 {
     public static void main(String[] args) {
+        // Creating arraylist
         List <String> list = new ArrayList<>();
+        // Vdding values
         list.add("Red");
         list.add("Green");
         list.add("Orange");

@@ -15,14 +15,23 @@ for storing the ArrayList A1 and A2.
 NOTE: You can test the methods using a main method.
  * */
 
+// Importing necessery packages
 import java.util.ArrayList;
+
+// Main Class
 public class Problem1 {
+    
+    // Creating arraylists
     private ArrayList<Integer> list1 = new ArrayList<>();
+    // Creating method
     public ArrayList<Integer> storeEvenNumbers(int N) {
         list1 = new ArrayList<>();
+        // For loop for iterating
         for (int i = 2; i <= N; i++) {
             if (i % 2 == 0) list1.add(i);
         }
+        
+        // Returning the value
         return list1;
     }
     public ArrayList<Integer> printEvenNumbers() {
@@ -34,7 +43,11 @@ public class Problem1 {
         return list2;
     }
     public static void main(String[] args) {
+        
+        // Creating Onject
         Problem1 obj = new Problem1();
+        
+        // Calling methods
         obj.storeEvenNumbers(10);
         obj.printEvenNumbers();
     }

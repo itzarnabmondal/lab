@@ -10,8 +10,8 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ResetPassword {
-    private static byte invalidKeyCounter = 0;
-    public static void resetPassword() throws Exception {
+    private final static byte invalidKeyCounter = 0;
+    public final static void resetPassword() throws Exception {
         DestroySession.destroy();
 
         // Calling enter account no method
